@@ -1,5 +1,6 @@
 pandas
 numpy==1.23.5
+python-dotenv
 scipy==1.9.3
 scipy
 ipykernel
