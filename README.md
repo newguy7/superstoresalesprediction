@@ -1,0 +1,1 @@
+Predict the future sales of the super store based on its sales data.
