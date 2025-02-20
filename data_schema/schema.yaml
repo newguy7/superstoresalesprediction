@@ -1,0 +1,41 @@
+columns:
+  - 'Row ID': int64
+  - 'Order ID': object
+  - 'Order Date': object
+  - 'Ship Date': object
+  - 'Ship Mode': object
+  - 'Customer ID': object
+  - 'Customer Name': object
+  - Segment: object
+  - Country: object
+  - City: object
+  - State: object
+  - 'Postal Code': float64
+  - Region: object
+  - 'Product ID': object
+  - Category: object
+  - Sub-Category: object
+  - 'Product Name': object
+  - Sales: float64
+
+numerical_columns:
+  - 'Row ID'
+  - 'Postal Code'
+  - Sales
+
+categorical_columns:
+  - 'Order ID'
+  - 'Order Date'
+  - 'Ship Date'
+  - 'Ship Mode'
+  - 'Customer ID'
+  - 'Customer Name'
+  - Segment
+  - Country
+  - City
+  - State
+  - Region
+  - 'Product ID'
+  - Category
+  - Sub-Category
+  - 'Product Name'
